@@ -175,3 +175,4 @@ user_data_fields = [
 # 	"project_extension.auth.validate"
 # ]
 
+template_apps = ['project_extension', 'erpnext'] # apps order is important
