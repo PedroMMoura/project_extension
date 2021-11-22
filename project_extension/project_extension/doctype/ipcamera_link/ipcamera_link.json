@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2021-11-22 01:18:02.933984",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "box",
+  "camera_name",
+  "camera_url"
+ ],
+ "fields": [
+  {
+   "fieldname": "box",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Box",
+   "reqd": 1
+  },
+  {
+   "fieldname": "camera_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Camera Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "camera_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Camera URL",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-11-22 01:18:02.933984",
+ "modified_by": "Administrator",
+ "module": "Project Extension",
+ "name": "IPCamera Link",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

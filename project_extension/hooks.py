@@ -53,6 +53,10 @@ app_license = "MIT"
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
 
+portal_menu_items = [
+    {"title": "IP Cameras", "route": "/ipcameras", "role": "Customer"},
+]
+
 # Installation
 # ------------
 
